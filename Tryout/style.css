@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Times+New+Roman:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FDF7F7;
+}
+
+.homepage {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    height: 500px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    width: 50%;
+    background-color: #8B3A3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.tagline {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Charm', cursive;
+    text-align: center;
+}
+
+.right {
+    width: 50%;
+    background-color: #FDF7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
